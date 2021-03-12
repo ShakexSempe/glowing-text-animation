@@ -17,7 +17,7 @@ h2{
     font-weight: 500;
 }
 h2 span{
-    animation: animate 1.5s linear infinite;
+    animation: animate 2s linear infinite;
 }
 h2 span:nth-child(1){
     animation-delay: 0s
@@ -42,9 +42,9 @@ h2 span:nth-child(5){
     100%{
         color: #fff;
         text-shadow: 0 0 10px #fff, 
-                        0 0 40px yellow,
-                        0 0 20px #008000,
-                        0 0 60px #ffc0cb
+                        0 0 20px yellow,
+                        0 0 30px #008000,
+                        0 0 40px #ffc0cb
                         ;
 
     }
@@ -56,7 +56,7 @@ footer{
     bottom: 0vh;
     color: yellow;
     font-size: 1.2em;
-    background: linear-gradient(90deg, #fff, yellow, #fff);
+    background: #fff000;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
